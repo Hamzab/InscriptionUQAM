@@ -1,0 +1,50 @@
+!!! 5
+html
+  head
+    meta(charset='utf-8')
+    title Inscription
+    link(rel='stylesheet', href='stylesheets/style.css', type='text/css', media='all')
+    script(src='javascripts/validation.js')
+  body
+    h1 Inscription pour la session d'automne 2013
+    form(name='myForm', action='./inscription', onsubmit='return validate()', method='post')
+      p
+        label(for='code_permanent') Code permanent : 
+        input#code_permanent(type='text', name='code_permanent', required='required')
+      p
+        label(for='numero_programme') Numéro du programme : 
+        input#numero_programme(type='text', size='15', name='numero_programme', required='required')
+      p
+        label(for='sigle') Sigle : 
+        input#sigle1(type='text', name='sigle1', oninput='validate()')
+        label(for='groupe') Groupe : 
+        input#groupe1(type='text', size='2', name='groupe1', oninput='validate()')
+      p
+        label(for='sigle') Sigle : 
+        input#sigle2(type='text', name='sigle2', oninput='validate()')
+        label(for='groupe') Groupe : 
+        input#groupe2(type='text', size='2', name='groupe2', oninput='validate()')
+      p
+        label(for='sigle') Sigle : 
+        input#sigle3(type='text', name='sigle3', oninput='validate()')
+        label(for='groupe') Groupe : 
+        input#groupe3(type='text', size='2', name='groupe3', oninput='validate()')
+      p
+        label(for='sigle') Sigle : 
+        input#sigle4(type='text', name='sigle4', oninput='validate()')
+        label(for='groupe') Groupe : 
+        input#groupe4(type='text', size='2', name='groupe4', oninput='validate()')
+      p
+        label(for='sigle') Sigle : 
+        input#sigle5(type='text', name='sigle5', oninput='validate()')
+        label(for='groupe') Groupe : 
+        input#groupe5(type='text', size='2', name='groupe5', oninput='validate()')
+      p
+        label(for='sigle') Sigle : 
+        input#sigle6(type='text', name='sigle6', oninput='validate()')
+        label(for='groupe') Groupe : 
+        input#groupe6(type='text', size='2', name='groupe6', oninput='validate()')
+      p
+        input#inscription(type='submit', name='inscription', value='Inscription')
+      #validateMsg
+ 

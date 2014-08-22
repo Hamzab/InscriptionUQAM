@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<etudiant>
+   <code_permanent>BELH01088708</code_permanent>
+   <numero_programme>7316</numero_programme>
+   <cours>
+       <sigle>INF4375</sigle>
+       <groupe>30</groupe>
+   </cours>
+</etudiant>

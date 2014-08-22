@@ -1,0 +1,38 @@
+body {
+  padding: 0px 80px;
+  font: 13px/150% Verdana, Tahoma, sans-serif;
+}
+input {
+  padding: 5px;
+  border: solid 1px #e5e5e5;
+  outline: 0;
+  font: normal 16px/100% Verdana, Tahoma, sans-serif;
+  background: #fff url("bg_form.png") left top repeat-x;
+  background: -webkit-gradient(linear, left top, left 25, from(#fff), color-stop(4%, #eee), to(#fff));
+  background: -moz-linear-gradient(top, #fff, #eee 1px, #fff 25px);
+  box-shadow: rgba(0,0,0,0.1) 0px 0px 8px;
+  -moz-box-shadow: rgba(0,0,0,0.1) 0px 0px 8px;
+  -webkit-box-shadow: rgba(0,0,0,0.1) 0px 0px 8px;
+}
+input:hover,
+input:focus {
+  border-color: #c9c9c9;
+  -webkit-box-shadow: rgba(0,0,0,0.15) 0px 0px 8px;
+}
+.form label {
+  margin-left: 12px;
+  color: #999;
+}
+.submit input {
+  width: auto;
+  padding: 9px 15px;
+  background: #f00;
+  border: 0;
+  font-size: 14px;
+  color: #ccc;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+div {
+  color: #f00;
+}

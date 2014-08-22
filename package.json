@@ -1,0 +1,14 @@
+{
+  "name": "inf4375-2013e-TP1",
+  "description": "TP1 de INF4375 pour la session d'ete 2013",
+  "author": "Lamrous Lyes - Belainine Hamza",
+  "version": "0.0.1",
+  "dependencies": {
+    "express": "= 3.2.5",
+    "jade": ">= 0.30",
+    "stylus": ">= 0.32",
+	"xmldom": "~0.1.13",
+	"iconv-lite": "~0.2.9"
+  },
+  "engine": "node >= 0.8"
+}
